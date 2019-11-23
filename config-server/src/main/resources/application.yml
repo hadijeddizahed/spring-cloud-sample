@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/configs
+  profiles:
+    active: native
+  security:
+    user:
+      password: mypass
+
+server:
+  port: 8088
+
+
+
